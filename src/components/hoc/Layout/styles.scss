@@ -8,10 +8,11 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 .layout-main {
   height: 100%;
+  flex: 1;
+  display: grid;
 }
 
 .header {
@@ -78,7 +79,7 @@
 .sign-in-page {
   justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
+  height: 100%;
 }
 
 .sign-up-form,
